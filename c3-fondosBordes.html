@@ -35,13 +35,21 @@
     }
     .fondo-imagen{
       background-image: url('https://wallpapers.com/images/featured-full/imagenes-de-montanas-en-4k-iltg9hyc9nonow84.jpg');
-      height: 500px;
+      height: 1000px;
+      background-size: contain; /*cover, contain*/
+      background-attachment: fixed; /*scroll, fixed*/
     }
     .fondo-imagen1{
-      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIN7iYRftpT9fXoyDUGGDzKGVVGzGWzZOyhWUhRr3pgHK1xByRiXZyFh_mGZilP1wgH_w&usqp=CAU');
+      background-image: url('https://wallpapers.com/images/high/4k-mountain-pictures-wkyza5sdljz6o8ks.webp');
       background-repeat: no-repeat;
       background-position: center top;
-      height: 500px;
+      height: 1000px;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    body{
+      padding: 0px;
+      margin: 0px;
     }
   </style>
 </head>
@@ -52,11 +60,16 @@
     <section class="bx3">BOX 3</section>
     <section class="bx4">BOX 4</section>
   </section>
-  <section class="fondo-imagen">
+
+  <section class="fondo-imagen" >
+    <br><br>
     <h1>Montaña montañosa montañísima</h1>
   </section>
+
   <section class="fondo-imagen1">
+    <br><br>
     <h1>Montaña montañosa montañísima</h1>
   </section>
+
 </body>
 </html>
